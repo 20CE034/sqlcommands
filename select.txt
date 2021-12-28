@@ -1,0 +1,7 @@
+select 
+    "STU_ID",
+    "SEM",
+    "DEPART",
+    "STU_NAME",
+    "CITY"
+from "CHARUSATU";
