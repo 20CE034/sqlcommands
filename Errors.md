@@ -2,12 +2,12 @@
 
 # [SOLVED] #1 ORACLE initialization or shutdown in progress 
 
-i)                                  
+# i)                                  
 
          username - (system or c##(user)) as sysdba
          password - (Oracle#143 or cspit)
 
-ii) 
+# ii) 
 
          SELECT status, database_status from v$instance;
 
@@ -19,12 +19,12 @@ ii)
 
          MOUNTED      ACTIVE
 
-iii) 
+# iii) 
 
          alter database open;
          Database altered.
 
-iv) 
+# iv) 
 
          SELCET status, database_status from v$instance;
 
