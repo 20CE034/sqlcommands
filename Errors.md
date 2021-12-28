@@ -1,6 +1,6 @@
 ## ERROR 
 
-# 1 ORACLE initialization or shutdown in progress [
+# #1 ORACLE initialization or shutdown in progress [
 
 i) username - (system or c##(user)) as sysdba
 
