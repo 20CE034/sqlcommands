@@ -1,67 +1,69 @@
 # sqlcommands+ by plush
- sqlplus
+
+    sqlplus
 
 ## (login)
 
-username - system
-password - Oracle#143
+    username - system
+    password - Oracle#143
 
 ## (creating a user)
 
-create user c##(20ce034)
+    create user c##(20ce034)
 
-2 identified by cspit;
+    2 identified by cspit;
 
-show user; (system)
+    show user; (system)
 
-grant resource, connect to c##(20ce034);
+    grant resource, connect to c##(20ce034);
 
-connect c##(20ce034)/(cspit);
+    connect c##(20ce034)/(cspit);
 
-show user;            (USER CREATED)
+    show user;            
+   (USER CREATED)
 
 
 ## (using dual table-sudo table)
 
-SELECT sysdate FROM dual;
+    SELECT sysdate FROM dual;
 
 (returns date)
 
-SELECT 2*2 FROM dual;
+    SELECT 2*2 FROM dual;
 
 (4) (arithmetic operation)
 
 ## (creating a table)
 
-CREATE TABLE table_name ( 
+    CREATE TABLE table_name ( 
 
     column1 datatype constraint(not mandatory),
     
     column2 datatype constraint,
     
-);
+    );
 
 ## (insert into table(rows))
 
-INSERT INTO table_na## me (STDID,CREDITS,COURSE_ID,SEMESTER,FACULTY,DEPT)
+    INSERT INTO table_na## me (STDID,CREDITS,COURSE_ID,SEMESTER,FACULTY,DEPT)
 
-VALUES (20034,101,'CE258',4,'AJS','CE');
+    VALUES (20034,101,'CE258',4,'AJS','CE');
 
 ## (select/display table)
 
 
-select 
+    select 
 
-    "STDID",
-    
-    "CREDITS",
-    
-    "COURSE_ID",
-    
-    "SEMESTER",
-    
-    "FACULTY",
-    
-    "DEPT"
-    
-from "TABLE_NAME";
+        "STDID",
+
+        "CREDITS",
+
+        "COURSE_ID",
+
+        "SEMESTER",
+
+        "FACULTY",
+
+        "DEPT"
+
+    from "TABLE_NAME";
