@@ -1,34 +1,40 @@
 ## ERROR 
 
-# #1 ORACLE initialization or shutdown in progress [
+# #1 ORACLE initialization or shutdown in progress 
 
-i) username - (system or c##(user)) as sysdba
+i)                                  
 
-password - (Oracle#143 or cspit)
+         username - (system or c##(user)) as sysdba
+         password - (Oracle#143 or cspit)
 
-ii) SELECT status, database_status from v$instance;
+ii) 
+
+         SELECT status, database_status from v$instance;
 
 (output)
 
-STATUS       DATABASE_STATUS
+         STATUS       DATABASE_STATUS
 
------------- -----------------
+         ------------ -----------------
 
-MOUNTED      ACTIVE
+         MOUNTED      ACTIVE
 
-iii) alter database open;
+iii) 
 
+         alter database open;
          Database altered.
 
-iv) SELCET status, database_status from v$instance;
+iv) 
+
+         SELCET status, database_status from v$instance;
 
 (output)
 
-STATUS       DATABASE_STATUS
+         STATUS       DATABASE_STATUS
 
------------- -----------------
+         ------------ -----------------
 
-OPEN         ACTIVE
+         OPEN         ACTIVE
 
 [SOLVED]
 
@@ -36,4 +42,4 @@ OPEN         ACTIVE
 
 - Improper shutdown of oracle/system.
 
-]
+
