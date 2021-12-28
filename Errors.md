@@ -1,6 +1,6 @@
 ## ERROR 
 
-# #1 ORACLE initialization or shutdown in progress 
+# [SOLVED] #1 ORACLE initialization or shutdown in progress 
 
 i)                                  
 
@@ -36,7 +36,6 @@ iv)
 
          OPEN         ACTIVE
 
-[SOLVED]
 
 # Reasons
 
