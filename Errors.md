@@ -2,6 +2,7 @@
 
 # [SOLVED] #1 ORACLE initialization or shutdown in progress 
 
+follow these steps
 # i)                                  
 
          username - (system or c##(user)) as sysdba
