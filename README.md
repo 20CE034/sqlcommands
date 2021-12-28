@@ -20,41 +20,6 @@ connect c##(20ce034)/(cspit);
 
 show user;            (USER CREATED)
 
-## (if above method doesnt work) {
-
-ERROR Desc- ORACLE initialization or shutdown in progress
-
-i) username - (system or c##(user)) as sysdba
-
-password - (Oracle#143 or cspit)
-
-ii) SELECT status, database_status from v$instance;
-
-(output)
-
-STATUS       DATABASE_STATUS
-
------------- -----------------
-
-MOUNTED      ACTIVE
-
-iii) alter database open;
-
-         Database altered.
-
-iv) SELCET status, database_status from v$instance;
-
-(output)
-
-STATUS       DATABASE_STATUS
-
------------- -----------------
-
-OPEN         ACTIVE
-
-[SOLVED]
-
-}
 
 ## (using dual table-sudo table)
 
