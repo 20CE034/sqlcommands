@@ -67,3 +67,24 @@
         "DEPT"
 
     from "TABLE_NAME";
+
+
+CREATE TABLE UniversityDataset1 ( 
+    StdID int, 
+    Credits int, 
+    Course_id varchar(255), 
+    Semester int,
+    Faculty varchar(255),
+    Dept varchar(255))
+
+INSERT INTO UniversityDataset1 (STDID,CREDITS,COURSE_ID,SEMESTER,FACULTY,DEPT)
+VALUES (20034,101,'CE258',4,'AJS','CE');
+
+select 
+    "STDID",
+    "CREDITS",
+    "COURSE_ID",
+    "SEMESTER",
+    "FACULTY",
+    "DEPT"
+from "UNIVERSITYDATASET1";
