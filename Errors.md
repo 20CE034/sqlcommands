@@ -44,5 +44,5 @@ follow these steps
 
 
 # [SOLVED] #2 ORACLE not available - ORA-01034
-Restart service [Image](https://cdn.discordapp.com/attachments/794818958686552145/928135228386607164/unknown.png)
+Restart service [!Image](https://cdn.discordapp.com/attachments/794818958686552145/928135228386607164/unknown.png)
 # [AWAITING] #3 ORACLE not available  
