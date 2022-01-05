@@ -48,7 +48,7 @@ follow these steps
 # Restart service ![Image](https://cdn.discordapp.com/attachments/794818958686552145/928135228386607164/unknown.png)
 
 # _Reasons_
-- Improper Shutdown/Startup
+- Improper shutdown/startup of oracle/system.
 -
 
 # [AWAITING] #3 ORACLE not available  
