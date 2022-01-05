@@ -38,7 +38,7 @@ follow these steps
          OPEN         ACTIVE
 
 
-# _Reasons
+# _Reasons_
 
 - Improper shutdown of oracle/system.
 
@@ -47,7 +47,7 @@ follow these steps
  
 # Restart service ![Image](https://cdn.discordapp.com/attachments/794818958686552145/928135228386607164/unknown.png)
 
-# _Reasons
+# _Reasons_
 - Improper Shutdown/Startup
 -
 
