@@ -50,5 +50,4 @@ follow these steps
 # _Reasons_
 - Improper shutdown/startup of oracle/system.
 -
-
-# [AWAITING] #3 ORACLE not available  
+ 
