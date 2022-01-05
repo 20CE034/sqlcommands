@@ -38,11 +38,17 @@ follow these steps
          OPEN         ACTIVE
 
 
-# Reasons
+# _Reasons
 
 - Improper shutdown of oracle/system.
 
 
-# [SOLVED] #2 ORACLE not available - ORA-01034
-Restart service ![Image](https://cdn.discordapp.com/attachments/794818958686552145/928135228386607164/unknown.png)
+# [SOLVED] #2 ORACLE not available (ORA-01034) & shared memory realm does not exist (ORA-27101)
+ 
+# Restart service ![Image](https://cdn.discordapp.com/attachments/794818958686552145/928135228386607164/unknown.png)
+
+# _Reasons
+- Improper Shutdown/Startup
+-
+
 # [AWAITING] #3 ORACLE not available  
