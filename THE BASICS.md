@@ -103,3 +103,7 @@ select
     "DEPT"
     
 from "UNIVERSITYDATASET1";
+
+## Cant see proper output?
+        - set linesize 150
+                                
