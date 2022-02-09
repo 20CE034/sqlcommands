@@ -1,5 +1,5 @@
 # TIL this
-Why do you need SQL when you can use Java or C++ for data manipulation?
+## Why do you need SQL when you can use Java or C++ for data manipulation?
     
 # 1 
  -You could store data in Java or CSS sure. Though that might work for making a school project, Facebook cannot store it's user info in that kind of environment. Honestly you don't need to even get that big.It's just what SQL is designed for. Therefore, it does it quicker, better, safer etc.. A knife is for cutting but when I don't have a screwdriver, I've used a knife sometimes.
