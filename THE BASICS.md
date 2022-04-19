@@ -9,15 +9,15 @@
 
 ## (creating a user)
 
-    create user c##(20ce034)
+    create user c##()
 
     2 identified by cspit;
 
     show user; (system)
 
-    grant resource, connect to c##(20ce034);
+    grant resource, connect to c##();
 
-    connect c##(20ce034)/(cspit);
+    connect c##()/(cspit);
 
     show user;            
    (USER CREATED)
